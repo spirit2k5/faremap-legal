@@ -1,39 +1,130 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#f7f8fa">
 <meta name="description" content="FareMap privacy policy">
 <title>FareMap Privacy Policy</title>
-<style>
-:root{--bg:#07111f;--card:#111a2e;--border:#2a3850;--text:#f8fafc;--muted:#cbd5e1;--green:#22c55e;--yellow:#facc15;--red:#ef4444;--blue:#3b82f6}
-*{box-sizing:border-box}body{margin:0;font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:linear-gradient(180deg,#07111f,#0b1728);color:var(--text);line-height:1.7}
-a{color:#93c5fd}.shell{max-width:900px;margin:0 auto;padding:28px 18px 64px}.nav{display:flex;justify-content:space-between;gap:18px;align-items:center;margin-bottom:24px}.brand{font-size:1.45rem;font-weight:900}.brand span{color:var(--green)}.nav a{text-decoration:none;font-weight:800}
-.hero,.card{background:rgba(17,26,46,.97);border:1px solid var(--border);border-radius:24px;box-shadow:0 18px 50px rgba(0,0,0,.25)}.hero{padding:32px;margin-bottom:18px}.eyebrow{color:#93c5fd;font-weight:900}.hero h1{font-size:clamp(2.2rem,8vw,4rem);line-height:1.05;margin:.35rem 0 .8rem;letter-spacing:-.055em}.hero p,.card p,.card li{color:var(--muted)}
-.stripe{display:flex;height:7px;border-radius:999px;overflow:hidden;margin-top:22px}.stripe i{flex:1}.stripe i:nth-child(1){background:var(--green)}.stripe i:nth-child(2){background:var(--yellow)}.stripe i:nth-child(3){background:var(--red)}.stripe i:nth-child(4){background:var(--blue)}
-.card{padding:24px;margin-top:14px}.card h2{margin:0 0 .6rem}.button{display:inline-block;padding:12px 16px;border-radius:14px;text-decoration:none;font-weight:900;background:var(--green);color:#04120a}.button.red{background:var(--red);color:white}.button.secondary{background:transparent;border:1px solid var(--border);color:var(--text)}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:16px}footer{text-align:center;color:#94a3b8;margin-top:28px}
-@media(max-width:620px){.nav{align-items:flex-start;flex-direction:column}.hero,.card{padding:22px}}
-</style>
-
+<link rel="stylesheet" href="faremap-legal.css">
+<script src="faremap-legal.js" defer></script>
 </head>
-<body><main class="shell">
-<nav class="nav"><div class="brand">Fare<span>Map</span></div><div><a href="index.html">Legal home</a> · <a href="faremap-delete-account.html">Delete account</a></div></nav>
-<section class="hero"><div class="eyebrow">FareMap Legal</div><h1>Privacy Policy</h1><p><strong>Effective date:</strong> 13 July 2026</p><p>This policy explains how FareMap handles account information, location information and community contributions.</p><div class="stripe"><i></i><i></i><i></i><i></i></div></section>
-<section class="card"><h2>Who operates FareMap</h2><p>FareMap is operated by Carlton Mahlori Tshianeo in South Africa. Contact <a href="mailto:mahloricarlton@gmail.com">mahloricarlton@gmail.com</a> with privacy questions.</p></section>
-<section class="card"><h2>Information FareMap may process</h2><ul>
-<li><strong>Account information:</strong> email address, display name, Supabase user ID and selected Passenger or Driver role.</li>
-<li><strong>Location information:</strong> foreground location used when a passenger selects a waiting point, opens a live map feature, or when a driver deliberately goes Online.</li>
-<li><strong>Community information:</strong> fares, routes, places, pickup points, reports, votes, confirmations and waiting requests.</li>
-<li><strong>App activity:</strong> records needed for favourites, budgets, requests, fraud prevention and account security.</li>
-</ul></section>
-<section class="card"><h2>How information is used</h2><p>FareMap uses information to authenticate users, provide Passenger and Driver tools, display transport information, protect one-vote and one-confirmation rules, prevent abuse, maintain security and diagnose technical problems.</p></section>
-<section class="card"><h2>Location</h2><p>FareMap is designed to use location only when a user deliberately starts a location-based feature. Drivers share live location while Online. Passengers share a waiting location only after choosing a public waiting point. FareMap does not intend to collect background location while the app is closed.</p></section>
-<section class="card"><h2>Service providers</h2><p>FareMap uses Supabase for authentication, database, cloud and server-function services. Google authentication is used when a user chooses Google login.</p></section>
-<section class="card"><h2>Sharing and sale</h2><p>FareMap does not sell personal information. Information may be processed by service providers that operate FareMap, disclosed when legally required, or displayed to other users when intentionally submitted as public community information.</p></section>
-<section class="card"><h2>Security</h2><p>FareMap uses authenticated accounts, encrypted connections and Supabase access controls. No online service can guarantee absolute security.</p></section>
-<section class="card"><h2>Retention</h2><p>Live driver and passenger waiting information is kept only as long as needed for the active feature. Account and community records may remain until deleted, anonymised or no longer needed for FareMap, security, fraud prevention or legal obligations.</p></section>
-<section class="card"><h2>Your choices and account deletion</h2><p>You can stop sharing live location by going Offline or ending a waiting request. You can request permanent deletion through <strong>My Profile → Delete Account</strong> inside FareMap or from the public deletion page.</p><div class="actions"><a class="button" href="faremap-delete-account.html">Delete a FareMap account</a><a class="button secondary" href="mailto:mahloricarlton@gmail.com">Contact support</a></div></section>
-<section class="card"><h2>Children</h2><p>FareMap's Google Play target-age selection must match the audience of the released app. Parents or guardians should supervise younger users where required by law.</p></section>
-<section class="card"><h2>Policy changes</h2><p>This policy may be updated when FareMap features, providers or legal requirements change. The effective date above will be updated when material changes are published.</p></section>
-<section class="card"><h2>Contact</h2><p>Email <a href="mailto:mahloricarlton@gmail.com">mahloricarlton@gmail.com</a>.</p></section>
+<body>
+<main class="shell">
+<header class="appbar">
+  <div class="brand-lockup">
+    <div class="brand-mark" aria-hidden="true">
+      <svg viewBox="0 0 64 64" fill="none">
+        <path d="M15 40h34l-3-17c-.7-4-4.2-7-8.3-7H26.3c-4.1 0-7.6 3-8.3 7L15 40Z" fill="#111214"/>
+        <rect x="12" y="36" width="40" height="13" rx="6" fill="#111214"/>
+        <circle cx="21" cy="49" r="5" fill="#111214"/>
+        <circle cx="43" cy="49" r="5" fill="#111214"/>
+        <path d="M22 22h20l2 10H20l2-10Z" fill="#f4c400"/>
+      </svg>
+    </div>
+    <div><div class="brand">Fare<span>Map</span></div><div class="brand-sub">South Africa's Taxi</div></div>
+  </div>
+  <button class="theme" type="button" data-theme-toggle onclick="toggleTheme()" aria-label="Toggle light or dark mode">☾</button>
+</header>
+<nav class="nav" aria-label="Legal pages">
+  <a href="index.html">Legal home</a>
+  <a href="faremap-privacy.html" aria-current="page">Privacy</a>
+  <a href="faremap-delete-account.html">Delete account</a>
+</nav>
+
+<section class="hero passenger">
+  <div class="eyebrow green">FareMap Legal</div>
+  <h1>Privacy Policy</h1>
+  <p class="meta"><strong>Effective date:</strong> 13 July 2026</p>
+  <p>This policy explains how FareMap handles account information, location information and community contributions.</p>
+  <div class="route" aria-hidden="true"><i></i><i></i><i></i></div>
+</section>
+
+<div class="status">
+  <div><strong>LOCATION &amp; ACCOUNT PRIVACY</strong><span>Live location is used only for FareMap features that need it.</span></div>
+  <div class="dot" aria-hidden="true"></div>
+</div>
+
+<section class="card driver-accent">
+  <span class="label">Operator</span>
+  <h2>Who operates FareMap</h2>
+  <p>FareMap is operated by Carlton Mahlori Tshianeo in South Africa. Contact <a href="mailto:mahloricarlton@gmail.com">mahloricarlton@gmail.com</a> with privacy questions.</p>
+</section>
+
+<section class="card passenger-accent">
+  <span class="label">Data</span>
+  <h2>Information FareMap may process</h2>
+  <div class="row"><div class="row-icon">A</div><div><strong>Account information</strong><span>Email address, display name, Supabase user ID and selected Passenger or Driver role.</span></div></div>
+  <div class="row"><div class="row-icon">⌖</div><div><strong>Location information</strong><span>Foreground location used when a passenger selects a waiting point, opens a live map feature, or when a driver deliberately goes Online.</span></div></div>
+  <div class="row"><div class="row-icon">＋</div><div><strong>Community information</strong><span>Fares, routes, places, pickup points, reports, votes, confirmations and waiting requests.</span></div></div>
+  <div class="row"><div class="row-icon">✓</div><div><strong>App activity</strong><span>Records needed for favourites, budgets, requests, fraud prevention and account security.</span></div></div>
+</section>
+
+<section class="card">
+  <span class="label">Purpose</span>
+  <h2>How information is used</h2>
+  <p>FareMap uses information to authenticate users, provide Passenger and Driver tools, display transport information, protect one-vote and one-confirmation rules, prevent abuse, maintain security and diagnose technical problems.</p>
+</section>
+
+<section class="card passenger-accent">
+  <span class="label">Live map</span>
+  <h2>Location</h2>
+  <p>FareMap is designed to use location only when a user deliberately starts a location-based feature. Drivers share live location while Online. Passengers share a waiting location only after choosing a public waiting point. FareMap does not intend to collect background location while the app is closed.</p>
+</section>
+
+<section class="card">
+  <span class="label">Providers</span>
+  <h2>Service providers</h2>
+  <p>FareMap uses Supabase for authentication, database, cloud and server-function services. Google authentication is used when a user chooses Google login.</p>
+</section>
+
+<section class="card">
+  <span class="label">Sharing</span>
+  <h2>Sharing and sale</h2>
+  <p>FareMap does not sell personal information. Information may be processed by service providers that operate FareMap, disclosed when legally required, or displayed to other users when intentionally submitted as public community information.</p>
+</section>
+
+<section class="card">
+  <span class="label">Protection</span>
+  <h2>Security</h2>
+  <p>FareMap uses authenticated accounts, encrypted connections and Supabase access controls. No online service can guarantee absolute security.</p>
+</section>
+
+<section class="card">
+  <span class="label">Storage</span>
+  <h2>Retention</h2>
+  <p>Live driver and passenger waiting information is kept only as long as needed for the active feature. Account and community records may remain until deleted, anonymised or no longer needed for FareMap, security, fraud prevention or legal obligations.</p>
+</section>
+
+<section class="card driver-accent">
+  <span class="label">Your account</span>
+  <h2>Your choices and account deletion</h2>
+  <p>You can stop sharing live location by going Offline or ending a waiting request. You can request permanent deletion through <strong>My Profile → Delete Account</strong> inside FareMap or from the public deletion page.</p>
+  <div class="actions">
+    <a class="button yellow" href="faremap-delete-account.html">Delete a FareMap account</a>
+    <a class="button secondary" href="mailto:mahloricarlton@gmail.com">Contact support</a>
+  </div>
+</section>
+
+<section class="card">
+  <span class="label">Age</span>
+  <h2>Children</h2>
+  <p>FareMap's Google Play target-age selection must match the audience of the released app. Parents or guardians should supervise younger users where required by law.</p>
+</section>
+
+<section class="card">
+  <span class="label">Updates</span>
+  <h2>Policy changes</h2>
+  <p>This policy may be updated when FareMap features, providers or legal requirements change. The effective date above will be updated when material changes are published.</p>
+</section>
+
+<section class="card">
+  <span class="label">Support</span>
+  <h2>Contact</h2>
+  <p>Email <a href="mailto:mahloricarlton@gmail.com">mahloricarlton@gmail.com</a>.</p>
+</section>
+
 <footer>FareMap · Know the fare before you go.</footer>
-</main></body></html>
+</main>
+</body>
+</html>
